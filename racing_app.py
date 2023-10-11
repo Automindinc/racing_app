@@ -102,6 +102,16 @@ df['Age Score'] = df['Age'].apply(lambda age: 1 if age <= 4 else 0.8 if age <= 6
 
 st.title("Horse Racing Predictor")
 
+st.markdown("""
+This app is intended for entertainment purposes only and should not be used for any real-world applications or betting decisions. 
+The displayed scores and data are based solely on specific data sets and are not indicative of future outcomes.
+""")
+
+st.markdown("""
+**Data Source & Details:** 
+All data presented in this app pertains only to the first race of 11.10.23. Data was manually extracted from [SCMP](https://www.scmp.com/sport/racing/racecard/1).
+""")
+
 # Allow user to adjust weights
 weight_average_last_3 = st.sidebar.slider("Weight for Average Last 3 Runs", 0.0, 2.0, 1.0)
 weight_on = st.sidebar.slider("Weight for ON", 0.0, 2.0, 1.0)
@@ -120,3 +130,81 @@ df['Score'] = (
 
 best_bets = df.sort_values(by='Score')
 st.write(best_bets[['Horse', 'Score']])
+
+# Explanation Section
+if st.button('Show Explanation'):
+    st.subheader("Horse Betting Score Formula")
+    
+    st.markdown("### Notation:")
+    st.markdown("""
+    Let:
+    
+    - \( L_i \) denote the \( i^{th} \) latest run of a horse.
+    - \( ON \) represent the odds for a horse not winning.
+    - \( TD \) represent the "Today's" odds for a horse to win.
+    - \( J \) represent the jockey score.
+    - \( A \) represent the age score of the horse.
+    - \( S \) represent the final score of the horse.
+    - \( W \) denote the win rate percentage of the jockey.
+    - \( P \) represent the placement percentage for the season.
+    - \( AW \) represent the wins in all-weather conditions.
+    - \( A2 \) represent the second places in all-weather conditions.
+    - \( A3 \) represent the third places in all-weather conditions.
+    - \( AT \) denote the total races in all-weather conditions.
+    - \( WS \) represent the total win stakes.
+    - \( TS \) represent the total stakes.
+    - \( PL \) represent the profit/loss value.
+    
+    ### 1. Average of Last 3 Runs:
+    
+    The average of the last 3 runs for a horse is given by:
+    
+    $$
+    \\text{Average\_last\_3\_runs} = \\frac{L_1 + L_2 + L_3}{3}
+    $$
+    
+    ### 2. Jockey Performance Score:
+    
+    The jockey score \( J \) is derived from the jockey's performance metrics. A higher \( J \) indicates a more skilled jockey.
+    
+    ### Jockey Performance Score Calculation:
+    
+    The all-weather performance ratio \( R \) is given by:
+    
+    $$
+    R = \\frac{AW + A2 + A3}{AT}
+    $$
+    
+    The stakes ratio \( SR \) is calculated as:
+    
+    $$
+    SR = \\frac{WS}{TS}
+    $$
+    
+    The jockey score \( J \) is then:
+    
+    $$
+    J = 0.4W + 0.4P + 0.1R + 0.1SR - 0.001PL
+    $$
+    
+    ### 3. Horse Age Score:
+    
+    The age score \( A \) is determined as:
+    
+    $$
+    A = 
+    \\begin{cases} 
+    1 & \\text{if } \\text{age} \leq 4 \\
+    0.8 & \\text{if } 4 < \\text{age} \leq 6 \\
+    0.6 & \\text{otherwise}
+    \end{cases}
+    $$
+    
+    ### 4. Final Score Calculation:
+    
+    The final score \( S \) for a horse is:
+    
+    $$
+    S = \\text{Average\_last\_3\_runs} + ON + TD - J + A
+    $$
+    """)
