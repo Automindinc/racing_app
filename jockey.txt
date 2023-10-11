@@ -1,0 +1,160 @@
+{
+Name: K. C. LEUNG
+No of wins for season: 3
+No of runs for season: 45
+Win %: 6.67
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 2
+Total stakes: $3,899,225
+Win stakes: $2,225,850
+No of 2nds: 3
+No of 3rds: 3
+Percentage for season: 20
+Profit/Loss: ($51)
+},
+{
+Name: Y. L. Chung -7
+No of wins for season: 5
+No of runs for season: 43
+Win %: 11.63
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 2
+Total stakes: $5,991,950
+Win stakes: $3,494,700
+No of 2nds: 4
+No of 3rds: 3
+Percentage for season: 27.91
+Profit/Loss: ($172)
+},
+{
+Name: H. T. Mo -2
+No of wins for season: 0
+No of runs for season: 14
+Win %: 0
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 0
+Total stakes: $347,850
+Win stakes: $0
+No of 2nds: 1
+No of 3rds: 0
+Percentage for season: 7.14
+Profit/Loss: ($140)
+},
+{
+Name: L. Hewitson
+No of wins for season: 4
+No of runs for season: 57
+Win %: 7.02
+No of wins for all weather: 0
+No of 2nds for all weather: 1
+No of 3rds for all weather: 1
+All weather: 4
+Total stakes: $8,689,450
+Win stakes: $4,514,400
+No of 2nds: 7
+No of 3rds: 9
+Percentage for season: 35.09
+Profit/Loss: ($162)
+},
+{
+Name: Z. Purton
+No of wins for season: 13
+No of runs for season: 65
+Win %: 20
+No of wins for all weather: 1
+No of 2nds for all weather: 1
+No of 3rds for all weather: 0
+All weather: 4
+Total stakes: $19,700,225
+Win stakes: $12,135,300
+No of 2nds: 12
+No of 3rds: 10
+Percentage for season: 53.85
+Profit/Loss: ($115)
+},
+{
+Name: M. F. Poon -2	
+No of wins for season: 0
+No of runs for season: 26
+Win %: 0
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 2
+Total stakes: $1,194,600
+Win stakes: $0
+No of 2nds: 2
+No of 3rds: 2
+Percentage for season: 15.38
+Profit/Loss: ($260)
+},
+{
+Name: K. Teetan
+No of wins for season: 6
+No of runs for season: 56
+Win %: 10.71
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 2
+Total stakes: $10,838,025
+Win stakes: $7,746,300
+No of 2nds: 7
+No of 3rds: 4
+Percentage for season: 30.36
+Profit/Loss: $197
+},
+{
+Name: A. Badel
+No of wins for season: 3
+No of runs for season: 45
+Win %: 6.67
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 3
+Total stakes: $7,336,975
+Win stakes: $4,061,250
+No of 2nds: 3
+No of 3rds: 4
+Percentage for season: 22.22
+Profit/Loss: ($269)
+},
+{
+Name: M. L. Yeung
+No of wins for season: 2
+No of runs for season: 27
+Win %: 7.41
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 1
+Total stakes: $3,536,150
+Win stakes: $1,333,800
+No of 2nds: 4
+No of 3rds: 0
+Percentage for season: 22.22
+Profit/Loss: ($191)
+},
+{
+Name: K. De. Melo
+No of wins for season: 1
+No of runs for season: 31
+Win %: 3.23
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 1
+Total stakes: $2,296,125
+Win stakes: $498,750
+No of 2nds: 2
+No of 3rds: 3
+Percentage for season: 19.35
+Profit/Loss: ($277)
+},
