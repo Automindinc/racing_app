@@ -1,5 +1,5 @@
 {
-Name: K. C. LEUNG
+Name: K. C. Leung
 No of wins for season: 3
 No of runs for season: 45
 Win %: 6.67
@@ -157,4 +157,84 @@ No of 2nds: 2
 No of 3rds: 3
 Percentage for season: 19.35
 Profit/Loss: ($277)
+},
+{
+Name: L. Currie
+No of wins for season: 0
+No of runs for season: 15
+Win %: 0
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 0
+Total stakes: $23,400
+Win stakes: $0
+No of 2nds: 0
+No of 3rds: 0
+Percentage for season: 0
+Profit/Loss: ($150)
+},
+{
+Name: M. Chadwick
+No of wins for season: 3
+No of runs for season: 48
+Win %: 6.25
+No of wins for all weather: 1
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 3
+Total stakes: $4,946,900
+Win stakes: $1,664,400
+No of 2nds: 4
+No of 3rds: 5
+Percentage for season: 25
+Profit/Loss: ($298)
+},
+{
+Name: H. Bowman
+No of wins for season: 12
+No of runs for season: 57
+Win %: 21.05
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 1
+All weather: 3
+Total stakes: $11,643,025
+Win stakes: $7,555,350
+No of 2nds: 5
+No of 3rds: 8
+Percentage for season: 43.86
+Profit/Loss: ($37)
+},
+{
+Name: A. Hamelin
+No of wins for season: 1
+No of runs for season: 18
+Win %: 5.56
+No of wins for all weather: 0
+No of 2nds for all weather: 0
+No of 3rds for all weather: 0
+All weather: 0
+Total stakes: $1,156,900
+Win stakes: $1,060,200
+No of 2nds: 0
+No of 3rds: 0
+Percentage for season: 5.56
+Profit/Loss: ($81)
+},
+{
+Name: B. Avdulla
+No of wins for season: 1
+No of runs for season: 34
+Win %: 2.94
+No of wins for all weather: 0
+No of 2nds for all weather: 1
+No of 3rds for all weather: 0
+All weather: 2
+Total stakes: $3,926,050
+Win stakes: $1,618,800
+No of 2nds: 4
+No of 3rds: 5
+Percentage for season: 29.41
+Profit/Loss: ($180)
 },
